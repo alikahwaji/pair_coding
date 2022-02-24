@@ -10,8 +10,9 @@ const sendMessage = (message) => {
 const start = () => {
     sendMessage(startMessage);
 }
-
 start();
+
+sendMessage("Don't worry if this code confuses you, Ali will be teaching you this.")
 
 const end = () => {
     sendMessage(endMessage);
