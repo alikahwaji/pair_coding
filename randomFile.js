@@ -3,15 +3,15 @@
 const startMessage = "Hello World";
 const endMessage = "See you later!";
 
+const sendMessage = (message) => {
+    console.log(message);
+}
+
 const start = () => {
     sendMessage(startMessage);
 }
 
 start();
-
-function sendMessage(message) {
-    console.log(message);
-}
 
 const end = () => {
     sendMessage(endMessage);
